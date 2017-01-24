@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4417CB371E2DD5D000889273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417CB361E2DD5D000889273 /* AppDelegate.swift */; };
+		4417CB3D1E2DD5D000889273 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417CB3C1E2DD5D000889273 /* GameScene.swift */; };
+		4417CB3F1E2DD5D000889273 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417CB3E1E2DD5D000889273 /* GameViewController.swift */; };
+		4417CB421E2DD5D000889273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4417CB401E2DD5D000889273 /* Main.storyboard */; };
+		4417CB441E2DD5D000889273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4417CB431E2DD5D000889273 /* Assets.xcassets */; };
+		4417CB471E2DD5D000889273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4417CB451E2DD5D000889273 /* LaunchScreen.storyboard */; };
+		4417CB521E2DD5D000889273 /* StackOverflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417CB511E2DD5D000889273 /* StackOverflowTests.swift */; };
+		4417CB5D1E2DD5D000889273 /* StackOverflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417CB5C1E2DD5D000889273 /* StackOverflowUITests.swift */; };
+		44198C7F1E341717006E3E54 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44198C7E1E341717006E3E54 /* Parameters.swift */; };
+		44198C841E3418E1006E3E54 /* ScoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44198C831E3418E1006E3E54 /* ScoreScene.swift */; };
+		44B363701E34EB04005739BB /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3636F1E34EB04005739BB /* MenuScene.swift */; };
+		44B363721E34EF23005739BB /* DifficultyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B363711E34EF23005739BB /* DifficultyScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4417CB4E1E2DD5D000889273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4417CB2B1E2DD5CF00889273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4417CB321E2DD5CF00889273;
+			remoteInfo = StackOverflow;
+		};
+		4417CB591E2DD5D000889273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4417CB2B1E2DD5CF00889273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4417CB321E2DD5CF00889273;
+			remoteInfo = StackOverflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4417CB331E2DD5D000889273 /* StackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4417CB361E2DD5D000889273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4417CB3C1E2DD5D000889273 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4417CB3E1E2DD5D000889273 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4417CB411E2DD5D000889273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4417CB431E2DD5D000889273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4417CB461E2DD5D000889273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4417CB481E2DD5D000889273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4417CB4D1E2DD5D000889273 /* StackOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4417CB511E2DD5D000889273 /* StackOverflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowTests.swift; sourceTree = "<group>"; };
+		4417CB531E2DD5D000889273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4417CB581E2DD5D000889273 /* StackOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4417CB5C1E2DD5D000889273 /* StackOverflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowUITests.swift; sourceTree = "<group>"; };
+		4417CB5E1E2DD5D000889273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44198C7E1E341717006E3E54 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		44198C831E3418E1006E3E54 /* ScoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreScene.swift; sourceTree = "<group>"; };
+		44B3636F1E34EB04005739BB /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		44B363711E34EF23005739BB /* DifficultyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4417CB301E2DD5CF00889273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB4A1E2DD5D000889273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB551E2DD5D000889273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4417CB2A1E2DD5CF00889273 = {
+			isa = PBXGroup;
+			children = (
+				4417CB351E2DD5D000889273 /* StackOverflow */,
+				4417CB501E2DD5D000889273 /* StackOverflowTests */,
+				4417CB5B1E2DD5D000889273 /* StackOverflowUITests */,
+				4417CB341E2DD5D000889273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4417CB341E2DD5D000889273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB331E2DD5D000889273 /* StackOverflow.app */,
+				4417CB4D1E2DD5D000889273 /* StackOverflowTests.xctest */,
+				4417CB581E2DD5D000889273 /* StackOverflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4417CB351E2DD5D000889273 /* StackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB361E2DD5D000889273 /* AppDelegate.swift */,
+				44198C821E3418C9006E3E54 /* Scenes */,
+				44198C811E3418AE006E3E54 /* ViewControllers */,
+				44198C801E3418A1006E3E54 /* Support */,
+			);
+			path = StackOverflow;
+			sourceTree = "<group>";
+		};
+		4417CB501E2DD5D000889273 /* StackOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB511E2DD5D000889273 /* StackOverflowTests.swift */,
+				4417CB531E2DD5D000889273 /* Info.plist */,
+			);
+			path = StackOverflowTests;
+			sourceTree = "<group>";
+		};
+		4417CB5B1E2DD5D000889273 /* StackOverflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB5C1E2DD5D000889273 /* StackOverflowUITests.swift */,
+				4417CB5E1E2DD5D000889273 /* Info.plist */,
+			);
+			path = StackOverflowUITests;
+			sourceTree = "<group>";
+		};
+		44198C801E3418A1006E3E54 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				44198C7E1E341717006E3E54 /* Parameters.swift */,
+				4417CB431E2DD5D000889273 /* Assets.xcassets */,
+				4417CB401E2DD5D000889273 /* Main.storyboard */,
+				4417CB451E2DD5D000889273 /* LaunchScreen.storyboard */,
+				4417CB481E2DD5D000889273 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		44198C811E3418AE006E3E54 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB3E1E2DD5D000889273 /* GameViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44198C821E3418C9006E3E54 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4417CB3C1E2DD5D000889273 /* GameScene.swift */,
+				44B3636F1E34EB04005739BB /* MenuScene.swift */,
+				44B363711E34EF23005739BB /* DifficultyScene.swift */,
+				44198C831E3418E1006E3E54 /* ScoreScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4417CB321E2DD5CF00889273 /* StackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4417CB611E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflow" */;
+			buildPhases = (
+				4417CB2F1E2DD5CF00889273 /* Sources */,
+				4417CB301E2DD5CF00889273 /* Frameworks */,
+				4417CB311E2DD5CF00889273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackOverflow;
+			productName = StackOverflow;
+			productReference = 4417CB331E2DD5D000889273 /* StackOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4417CB4C1E2DD5D000889273 /* StackOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4417CB641E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflowTests" */;
+			buildPhases = (
+				4417CB491E2DD5D000889273 /* Sources */,
+				4417CB4A1E2DD5D000889273 /* Frameworks */,
+				4417CB4B1E2DD5D000889273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4417CB4F1E2DD5D000889273 /* PBXTargetDependency */,
+			);
+			name = StackOverflowTests;
+			productName = StackOverflowTests;
+			productReference = 4417CB4D1E2DD5D000889273 /* StackOverflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4417CB571E2DD5D000889273 /* StackOverflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4417CB671E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflowUITests" */;
+			buildPhases = (
+				4417CB541E2DD5D000889273 /* Sources */,
+				4417CB551E2DD5D000889273 /* Frameworks */,
+				4417CB561E2DD5D000889273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4417CB5A1E2DD5D000889273 /* PBXTargetDependency */,
+			);
+			name = StackOverflowUITests;
+			productName = StackOverflowUITests;
+			productReference = 4417CB581E2DD5D000889273 /* StackOverflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4417CB2B1E2DD5CF00889273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sumner;
+				TargetAttributes = {
+					4417CB321E2DD5CF00889273 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4417CB4C1E2DD5D000889273 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4417CB321E2DD5CF00889273;
+					};
+					4417CB571E2DD5D000889273 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4417CB321E2DD5CF00889273;
+					};
+				};
+			};
+			buildConfigurationList = 4417CB2E1E2DD5CF00889273 /* Build configuration list for PBXProject "StackOverflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4417CB2A1E2DD5CF00889273;
+			productRefGroup = 4417CB341E2DD5D000889273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4417CB321E2DD5CF00889273 /* StackOverflow */,
+				4417CB4C1E2DD5D000889273 /* StackOverflowTests */,
+				4417CB571E2DD5D000889273 /* StackOverflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4417CB311E2DD5CF00889273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4417CB421E2DD5D000889273 /* Main.storyboard in Resources */,
+				4417CB441E2DD5D000889273 /* Assets.xcassets in Resources */,
+				4417CB471E2DD5D000889273 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB4B1E2DD5D000889273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB561E2DD5D000889273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4417CB2F1E2DD5CF00889273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44198C7F1E341717006E3E54 /* Parameters.swift in Sources */,
+				44B363721E34EF23005739BB /* DifficultyScene.swift in Sources */,
+				4417CB3D1E2DD5D000889273 /* GameScene.swift in Sources */,
+				4417CB3F1E2DD5D000889273 /* GameViewController.swift in Sources */,
+				44B363701E34EB04005739BB /* MenuScene.swift in Sources */,
+				44198C841E3418E1006E3E54 /* ScoreScene.swift in Sources */,
+				4417CB371E2DD5D000889273 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB491E2DD5D000889273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4417CB521E2DD5D000889273 /* StackOverflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4417CB541E2DD5D000889273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4417CB5D1E2DD5D000889273 /* StackOverflowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4417CB4F1E2DD5D000889273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4417CB321E2DD5CF00889273 /* StackOverflow */;
+			targetProxy = 4417CB4E1E2DD5D000889273 /* PBXContainerItemProxy */;
+		};
+		4417CB5A1E2DD5D000889273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4417CB321E2DD5CF00889273 /* StackOverflow */;
+			targetProxy = 4417CB591E2DD5D000889273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4417CB401E2DD5D000889273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4417CB411E2DD5D000889273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4417CB451E2DD5D000889273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4417CB461E2DD5D000889273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4417CB5F1E2DD5D000889273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4417CB601E2DD5D000889273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4417CB621E2DD5D000889273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4417CB631E2DD5D000889273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4417CB651E2DD5D000889273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StackOverflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflow.app/StackOverflow";
+			};
+			name = Debug;
+		};
+		4417CB661E2DD5D000889273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StackOverflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflow.app/StackOverflow";
+			};
+			name = Release;
+		};
+		4417CB681E2DD5D000889273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StackOverflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StackOverflow;
+			};
+			name = Debug;
+		};
+		4417CB691E2DD5D000889273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StackOverflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SumNeuron.StackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StackOverflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4417CB2E1E2DD5CF00889273 /* Build configuration list for PBXProject "StackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4417CB5F1E2DD5D000889273 /* Debug */,
+				4417CB601E2DD5D000889273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4417CB611E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4417CB621E2DD5D000889273 /* Debug */,
+				4417CB631E2DD5D000889273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4417CB641E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4417CB651E2DD5D000889273 /* Debug */,
+				4417CB661E2DD5D000889273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4417CB671E2DD5D000889273 /* Build configuration list for PBXNativeTarget "StackOverflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4417CB681E2DD5D000889273 /* Debug */,
+				4417CB691E2DD5D000889273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4417CB2B1E2DD5CF00889273 /* Project object */;
+}
